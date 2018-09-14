@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/isam.dir/isam.cpp.o CMakeFiles/isam.dir/Loader.cpp.o CMakeFiles/isam.dir/Collections.cpp.o CMakeFiles/isam.dir/Viewer.cpp.o  -o ../../bin/isam ../../lib/libisam.a -lGL -lGLU -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lcholmod -lamd -lcolamd -lcamd -lccolamd 

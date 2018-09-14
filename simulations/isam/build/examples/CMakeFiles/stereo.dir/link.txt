@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/stereo.dir/stereo.cpp.o  -o ../../bin/stereo ../../lib/libisam.a -lcholmod -lamd -lcolamd -lcamd -lccolamd 

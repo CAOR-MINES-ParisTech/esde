@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6fc9/fast"
+make[1] : on entre dans le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_f6fc9.dir/build.make CMakeFiles/cmTC_f6fc9.dir/build
+make[2] : on entre dans le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_f6fc9.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_f6fc9.dir/CheckSymbolExists.c.o   -c /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f6fc9
+/usr/local/lib/python3.5/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6fc9.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_f6fc9.dir/CheckSymbolExists.c.o  -o cmTC_f6fc9 
+CMakeFiles/cmTC_f6fc9.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x16) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f6fc9.dir/build.make:86 : la recette pour la cible « cmTC_f6fc9 » a échouée
+make[2]: *** [cmTC_f6fc9] Erreur 1
+make[2] : on quitte le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_f6fc9/fast » a échouée
+make[1]: *** [cmTC_f6fc9/fast] Erreur 2
+make[1] : on quitte le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+
+File /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce9ce/fast"
+make[1] : on entre dans le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_ce9ce.dir/build.make CMakeFiles/cmTC_ce9ce.dir/build
+make[2] : on entre dans le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_ce9ce.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ce9ce.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python3.5/dist-packages/cmake/data/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce9ce
+/usr/local/lib/python3.5/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce9ce.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ce9ce.dir/CheckFunctionExists.c.o  -o cmTC_ce9ce -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ce9ce.dir/build.make:86 : la recette pour la cible « cmTC_ce9ce » a échouée
+make[2]: *** [cmTC_ce9ce] Erreur 1
+make[2] : on quitte le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_ce9ce/fast » a échouée
+make[1]: *** [cmTC_ce9ce/fast] Erreur 2
+make[1] : on quitte le répertoire « /home/mines/ownCloud/MINES/Papiers/ICRA2019/github/simulations/isam/build/CMakeFiles/CMakeTmp »
+
+
