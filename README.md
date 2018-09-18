@@ -1,7 +1,7 @@
 # Exploiting Symmetries to Design EKFs with Consistency Properties
 ### Martin Brossard, Axel Barrau and Silvère Bonnabel
 
-This repo containt the Matlab code for reproducing the results of the paper **Exploiting Symmetries to Design EKFs with Consistency Properties**. Please follow the links to read the [paper](https://a).
+This repo containt the Matlab code for reproducing the results of the paper **Exploiting Symmetries to Design EKFs with Consistency Properties**. Please follow the links to read the [paper](https://hal.archives-ouvertes.fr/hal-01874587/document).
 
 ## Simulation Results
 The Matlab code of the Section **Simulation Results** is available in the folder ```simulations```.  The code is based on the two following references.
