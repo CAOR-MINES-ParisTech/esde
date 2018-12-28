@@ -1,4 +1,4 @@
-# Exploiting Symmetries to Design EKFs with Consistency Properties
+# Exploiting Symmetries to Design EKFs with Consistency Properties for Navigation and SLAM
 ### Martin Brossard, Axel Barrau and Silvère Bonnabel
 
 This repo containt the Matlab code for reproducing the results of the paper **Exploiting Symmetries to Design EKFs with Consistency Properties for Navigation and SLAM**. Please follow the links to read the [paper](https://hal.archives-ouvertes.fr/hal-01874587/document).
@@ -31,7 +31,7 @@ The Matlab code for the Section **Experimental Results** is available in folder 
 
 If you find this code useful for your research, please consider citing the following paper:
 
-	@Inproceedings{brossard2018exploiting,
+	@Article{brossard2018exploiting,
 	  Title          = {Exploiting Symmetries to Design EKFs with Consistency Properties for Navigation and SLAM},
 	  Author         = {Brossard, Martin and Barrau, Axel, and Bonnabel Silvère},
 	  Year           = {2018},
