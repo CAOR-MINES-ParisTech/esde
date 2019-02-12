@@ -32,11 +32,14 @@ The Matlab code for the Section **Experimental Results** is available in folder 
 If you find this code useful for your research, please consider citing the following paper:
 
 	@Article{brossard2018exploiting,
-	  Title          = {Exploiting Symmetries to Design EKFs with Consistency Properties for Navigation and SLAM},
-	  Author         = {Brossard, Martin and Barrau, Axel, and Bonnabel Silvère},
-	  Year           = {2018},
-	  Journal        = {IEEE Sensors Journal},
-	}
+	 	author={M. Brossard and A. Barrau and S. Bonnabel},
+		journal={IEEE Sensors Journal},
+		title={Exploiting Symmetries to Design EKFs With Consistency Properties for Navigation and SLAM},
+		year={2019},
+		volume={19},
+		number={4},
+		pages={1572-1579}
+		}
 
 ##  License
 For academic usage, the code is released under the permissive MIT license.
